@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Kimbap House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #000;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 20px;
+        }
+
+
+        nav {
+            text-align: right;
+            background-color: #000;
+            color: white;
+            padding: 5px 20px;
+        }
+            nav a {
+                text-decoration: none;
+                color: white;
+                margin-left: 20px;
+            }
+
+
+        .nav-item {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contact-section {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .pink-border {
+            border: 2px solid #ffcccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .pink-text {
+            color: #ca7d7d;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #ffcccc;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        /* Estilos para pantallas pequeñas (móviles) */
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px; /* Ejemplo de estilo para pantallas pequeñas */
+            }
+        }
+
+        /* Estilos para pantallas medianas (tablets) */
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            body {
+                font-size: 16px; /* Ejemplo de estilo para pantallas medianas */
+            }
+        }
+
+        /* Estilos para pantallas grandes (computadoras) */
+        @media only screen and (min-width: 1025px) {
+            body {
+                font-size: 18px; /* Ejemplo de estilo para pantallas grandes */
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kimbap House</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menú</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="contact-section">
+            <h2>Contacto</h2>
+            <p>Estamos aquí para ayudarte. Si tienes alguna pregunta, inquietud o simplemente quieres decir hola, no lo dudes, ponte en contacto con nosotros. Hay varias formas de comunicarte con nuestro equipo amigable:</p>
+            <div class="pink-border">
+                <p class="pink-text">Correo electrónico: info@kimbaphouse.com</p>
+                <p class="pink-text">Teléfono: +123 456 7890</p>
+                <p class="pink-text">Redes sociales: @kimbaphouse</p>
+            </div>
+            <p>También puedes completar el formulario de contacto a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+            <form action="#" method="post">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <br>
+                <input type="email" name="correo" placeholder="Correo electrónico">
+                <br>
+                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

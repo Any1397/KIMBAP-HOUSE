@@ -1,0 +1,72 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-box {
+    width: 50%; /* Cambia el ancho del contenedor de la imagen */
+}
+
+.image {
+    width: 100%; /* Ajusta el tamaño de la imagen al contenedor */
+    display: block; /* Evita que la imagen tenga espacios innecesarios */
+}
+
+.text-content {
+    width: 45%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+}
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ejemplo de estilo para pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px; /* Ejemplo de estilo para pantallas medianas */
+    }
+}
+
+/* Estilos para pantallas grandes (computadoras) */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px; /* Ejemplo de estilo para pantallas grandes */
+    }
+}

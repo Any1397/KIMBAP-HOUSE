@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Kimbap House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #000;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav {
+            text-align: right;
+            background-color: #000;
+            color: white;
+            padding: 5px 20px;
+        }
+
+            nav a {
+                text-decoration: none;
+                color: white;
+                margin-left: 20px;
+            }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .menu-section {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border: 2px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        .menu-item {
+            margin-bottom: 10px;
+        }
+
+        .orange-border-top {
+            border-top: 2px solid orange;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+
+        .orange-border-right {
+            border-right: 2px solid orange;
+            padding-right: 10px;
+            margin-right: 20px;
+        }
+
+        .black-text {
+            color: #000;
+        }
+        /* Estilos para pantallas pequeñas (móviles) */
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px; /* Ejemplo de estilo para pantallas pequeñas */
+            }
+        }
+
+        /* Estilos para pantallas medianas (tablets) */
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            body {
+                font-size: 16px; /* Ejemplo de estilo para pantallas medianas */
+            }
+        }
+
+        /* Estilos para pantallas grandes (computadoras) */
+        @media only screen and (min-width: 1025px) {
+            body {
+                font-size: 18px; /* Ejemplo de estilo para pantallas grandes */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kimbap House</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menú</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="menu-section">
+            <h2>Menú</h2>
+            <div class="menu-item">
+                <div class="orange-border-right">
+                    <p>•Kimchi Kimbap</p>
+                </div>
+                <p>Precio: $30,000 COP</p>
+                <p>Indicaciones: Rollos de kimbap con kimchi picante</p>
+            </div>
+            <div class="menu-item">
+                <div class="orange-border-right">
+                    <p>•Tuna Kimbap</p>
+                </div>
+                <p>Precio: $30,000 COP</p>
+                <p>Indicaciones: Rollos de kimbap rellenos de atún</p>
+            </div>
+            <div class="menu-item">
+                <div class="orange-border-right">
+                    <p>•Vegetarian Kimbap</p>
+                </div>
+                <p>Precio: $30,000 COP</p>
+                <p>Indicaciones: Rollos de kimbap vegetarianos</p>
+            </div>
+        </div>
+        <div class="orange-border-top">
+            <p>Prepara tu paladar para un viaje culinario a través de los sabores vibrantes de Asia con nuestro variado menú.</p>
+        </div>
+    </div>
+</body>
+</html>
